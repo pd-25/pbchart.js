@@ -1,0 +1,28 @@
+{
+  "name": "pbchart",
+  "version": "1.0.12",
+  "description": "Custom Stacked Column Chart built with React and SVG",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "chart",
+    "stacked",
+    "react",
+    "svg",
+    "barchart"
+  ],
+  "author": "Pradipta Bhuin",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.8.3"
+  }
+}
