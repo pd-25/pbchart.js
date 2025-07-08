@@ -1,6 +1,6 @@
 {
   "name": "pbchart",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Custom Stacked Column Chart built with React and SVG",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
