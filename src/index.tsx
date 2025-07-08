@@ -77,7 +77,7 @@ export const BPChart: React.FC<BPChartProps> = ({
       }}
     >
       <svg
-        width={width}
+        width={totalWidth}
         height={height}
         style={{
           background: "#fff",
@@ -192,7 +192,7 @@ export const BPChart: React.FC<BPChartProps> = ({
           );
         })}
         {/* Legend */}
-        {data[0]?.values.map((d, i) => (
+        {/* {data[0]?.values.map((d, i) => (
           <g key={i}>
             <rect
               x={leftPadding + i * 120}
@@ -211,7 +211,8 @@ export const BPChart: React.FC<BPChartProps> = ({
               {d.label}
             </text>
           </g>
-        ))}
+        ))} */}
+
 
         {hovered && (
           <g>
